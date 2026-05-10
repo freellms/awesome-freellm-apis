@@ -2,7 +2,7 @@
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
   <p align="center"><strong>128+ free LLM APIs from 17 providers</strong> — find, compare & configure free models in seconds.</p>
-  <!-- END_AUTO_STATS -->
+<!-- END_AUTO_STATS -->
 </p>
 
 <p align="center">
@@ -12,6 +12,10 @@
   <a href="https://freellms.org/config/">Config generator</a> ·
   <a href="https://freellms.org/free-llm-api-keys/">API keys</a>
 </p>
+
+<!-- AUTO_UPDATE_BADGE -->
+<p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellms.org">freellms.org</a></strong> — Last updated: 2026-05-11</p>
+<!-- END_AUTO_UPDATE_BADGE -->
 
 ---
 
@@ -88,24 +92,22 @@ print(response.choices[0].message.content)
 These providers offer a **permanently free tier** — no credit card required for most.
 
 <!-- BEGIN_PERMANENT_FREE -->
-| Provider | Free Models | Credit Card? | Max Context | Modalities | Get API Key |
-|---|---|---|---|---|---|
-| NVIDIA NIM | 17 | Phone verification | 1,048,576 | text, image | [→](https://build.nvidia.com/settings/api-keys) |
-| GitHub Models | 10 | No | 1,000,000 | text | [→](https://github.com/marketplace/models) |
-| Groq | 9 | No | 262,000 | text | [→](https://console.groq.com/keys) |
-| Cloudflare Workers AI | 8 | No | 10,000,000 | text, image | [→](https://dash.cloudflare.com/profile/api-tokens) |
-| OVHcloud AI Endpoints | 7 | Registration | 262,000 | text, image, code | [→](https://endpoints.ai.cloud.ovh.net/) |
-| Mistral AI | 6 | No | 256,000 | text, image, code | [→](https://console.mistral.ai/api-keys) |
-| SiliconFlow | 6 | Registration | 131,072 | text | [→](https://cloud.siliconflow.cn/account/ak) |
-| Cohere | 5 | No | 256,000 | text | [→](https://dashboard.cohere.com/api-keys) |
-| Hugging Face | 5 | No | 131,000 | text | [→](https://huggingface.co/settings/tokens) |
-| LLM7.io | 5 | No | 131,072 | text, code | [→](https://token.llm7.io) |
-| Ollama Cloud | 5 | Registration | 128,000 | text | [→](https://ollama.com/settings/keys) |
-| Cerebras | 4 | No | 131,000 | text | [→](https://cloud.cerebras.ai/) |
-| Kilo Code | 4 | No | 262,000 | text, code | [→](https://kilo.ai) |
-| Z AI (Zhipu) | 3 | No | 200,000 | text | [→](https://open.bigmodel.cn/usercenter/apikeys) |
-| ModelScope | 3 | Registration | 131,072 | text | [→](https://modelscope.cn/my/myaccesstoken) |
-| Google AI Studio | 2 | No | 1,000,000 | text, image, audio | [→](https://aistudio.google.com/app/apikey) |
+| NVIDIA NIM | 17 | Phone verification | 1M | image, text | [→](https://build.nvidia.com/settings/api-keys) |
+| GitHub Models | 10 | No | 1M | text | [→](https://github.com/marketplace/models) |
+| Groq | 9 | No | 262K | text | [→](https://console.groq.com/keys) |
+| Cloudflare Workers AI | 8 | No | 10M | image, text | [→](https://dash.cloudflare.com/profile/api-tokens) |
+| OVHcloud AI Endpoints | 7 | Registration | 262K | code, image, text | [→](https://endpoints.ai.cloud.ovh.net/) |
+| Mistral AI | 6 | No | 256K | code, image, text | [→](https://console.mistral.ai/api-keys) |
+| SiliconFlow | 6 | Registration | 131K | text | [→](https://cloud.siliconflow.cn/account/ak) |
+| Cohere | 5 | No | 256K | text | [→](https://dashboard.cohere.com/api-keys) |
+| Hugging Face | 5 | No | 131K | text | [→](https://huggingface.co/settings/tokens) |
+| LLM7.io | 5 | No | 131K | code, text | [→](https://token.llm7.io) |
+| Ollama Cloud | 5 | Registration | 128K | text | [→](https://ollama.com/settings/keys) |
+| Cerebras | 4 | No | 131K | text | [→](https://cloud.cerebras.ai/) |
+| Kilo Code | 4 | No | 262K | code, text | [→](https://kilo.ai) |
+| Z AI (Zhipu AI) | 3 | No | 200K | text | [→](https://open.bigmodel.cn/usercenter/apikeys) |
+| ModelScope | 3 | Registration | 131K | text | [→](https://modelscope.cn/my/myaccesstoken) |
+| Google Gemini | 2 | No | 1M | text | [→](https://aistudio.google.com/app/apikey) |
 <!-- END_PERMANENT_FREE -->
 
 ### 💰 Renewable Credits
@@ -115,7 +117,7 @@ Providers that periodically renew free credits.
 | Provider | Free Models | Credit Model | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
 <!-- BEGIN_RENEWABLE -->
-| OpenRouter | 29 | Free tier + $10 topup → 1K RPD | 1,048,756 | text, image, code, reasoning, embeddings, audio | [→](https://openrouter.ai/workspaces/default/keys) |
+| OpenRouter | 29 | Free tier + $10 topup → 1K RPD | 1M | audio, code, embeddings, image, reasoning, text | [→](https://openrouter.ai/workspaces/default/keys) |
 <!-- END_RENEWABLE -->
 
 ### 🖥️ Local / Self-Hosted (Unlimited, Private, Free Forever)
@@ -138,16 +140,16 @@ Data from freellms.org, updated daily via API monitoring.
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
 <!-- BEGIN_TOP_MODELS -->
-| NVIDIA Nemotron 3 Super | OpenRouter | 262K | 585B tokens |
+| NVIDIA: Nemotron 3 Super (free) | OpenRouter | 262K | 585B tokens |
 | Owl Alpha | OpenRouter | 1M | 375B tokens |
-| Poolside Laguna M.1 | OpenRouter | 131K | 208B tokens |
-| OpenAI gpt-oss-120b | OpenRouter | 131K | 144B tokens |
-| inclusionAI Ring-2.6-1T | OpenRouter | 262K | 86B tokens |
-| Z.ai GLM 4.5 Air | OpenRouter | 131K | 77B tokens |
-| MiniMax M2.5 | OpenRouter | 197K | 57B tokens |
-| NVIDIA Nemotron Nano 30B | OpenRouter | 256K | 41B tokens |
-| OpenAI gpt-oss-20b | OpenRouter | 131K | 32B tokens |
-| Poolside Laguna XS.2 | OpenRouter | 131K | 31B tokens |
+| Poolside: Laguna M.1 (free) | OpenRouter | 131K | 208B tokens |
+| OpenAI: gpt-oss-120b (free) | OpenRouter | 131K | 144B tokens |
+| inclusionAI: Ring-2.6-1T (free) | OpenRouter | 262K | 86B tokens |
+| Z.ai: GLM 4.5 Air (free) | OpenRouter | 131K | 77B tokens |
+| MiniMax: MiniMax M2.5 (free) | OpenRouter | 196K | 57B tokens |
+| NVIDIA: Nemotron 3 Nano 30B A3B (free) | OpenRouter | 256K | 41B tokens |
+| OpenAI: gpt-oss-20b (free) | OpenRouter | 131K | 32B tokens |
+| Poolside: Laguna XS.2 (free) | OpenRouter | 131K | 31B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
@@ -200,5 +202,7 @@ MIT © [open-free-llm-api](https://github.com/open-free-llm-api)
 ---
 
 <p align="center">
-  <sub>Data refreshed daily via automated monitoring. <!-- AUTO_LAST_UPDATED -->Last updated: 2026-05-10<!-- END_AUTO_LAST_UPDATED -->.</sub>
+  <sub>Last updated: <!-- AUTO_LAST_UPDATED -->
+2026-05-11
+<!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
