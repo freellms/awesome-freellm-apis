@@ -1,6 +1,6 @@
-# Contributing to Awesome Free LLM APIs
+# Contributing to Freellms
 
-First of all, thank you for considering contributing to this repository! We want to build a high-quality global resource for free LLM APIs.
+First of all, thank you for considering contributing to this repository! We want to build a high-quality global resource for free LLMs APIs.
 
 To ensure this list remains useful and high-quality, please review the following guidelines.
 

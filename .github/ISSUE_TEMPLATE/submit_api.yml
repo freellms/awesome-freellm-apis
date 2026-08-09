@@ -1,12 +1,12 @@
-name: Submit a Free LLM API
-description: Recommend a new free LLM API to be added to the list.
+name: Submit a Free LLMs API
+description: Recommend a new free LLMs API to be added to the list.
 title: "[API]: "
 labels: ["enhancement", "api-submission"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for suggesting a new Free LLM API! 
+        Thank you for suggesting a new Free LLMs API! 
         Before submitting, please make sure the API offers a **genuine free tier** and is not purely a promotional post.
   
   - type: input
