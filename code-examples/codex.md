@@ -1,4 +1,4 @@
-# Codex CLI — Free LLM API Config
+# Codex CLI — Free LLMs API Config
 
 Use OpenAI's Codex CLI with any free LLM backend — no paid OpenAI tier needed.
 
@@ -72,4 +72,4 @@ Codex CLI works best with models that support:
 
 ## More Configs
 
-Visit [freellm.net/config/codex/](https://freellm.net/config/codex/) for the interactive config generator.
+Visit [freellms.org/config/codex/](https://freellms.org/config/codex/) for the interactive config generator.

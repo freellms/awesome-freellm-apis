@@ -1,4 +1,4 @@
-# Cursor — Free LLM API Config
+# Cursor — Free LLMs API Config
 
 Configure Cursor with any free OpenAI-compatible API in under a minute.
 
@@ -64,4 +64,4 @@ Get key: [dash.cloudflare.com](https://dash.cloudflare.com/profile/api-tokens) �
 
 ## More Configs
 
-Visit [freellm.net/config/cursor/](https://freellm.net/config/cursor/) for the interactive config generator.
+Visit [freellms.org/config/cursor/](https://freellms.org/config/cursor/) for the interactive config generator.

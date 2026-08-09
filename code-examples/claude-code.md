@@ -1,4 +1,4 @@
-# Claude Code (cc) — Free LLM API Config
+# Claude Code (cc) — Free LLMs API Config
 
 Point Claude Code at any free OpenAI-compatible backend in 30 seconds.
 
@@ -56,7 +56,7 @@ Get your key at [cloud.siliconflow.cn](https://cloud.siliconflow.cn/account/ak).
 Add to your shell profile (`~/.zshrc` or `~/.bashrc`):
 
 ```bash
-# Free LLM API backend for Claude Code
+# Free LLMs API backend for Claude Code
 export ANTHROPIC_BASE_URL="https://api.groq.com/openai/v1"
 export ANTHROPIC_AUTH_TOKEN="gsk_your_key_here"
 ```
@@ -69,4 +69,4 @@ export ANTHROPIC_AUTH_TOKEN="gsk_your_key_here"
 
 ## More Configs
 
-Visit [freellm.net/config/claude-code/](https://freellm.net/config/claude-code/) for the interactive config generator with all 128+ free models.
+Visit [freellms.org/config/claude-code/](https://freellms.org/config/claude-code/) for the interactive config generator with all 128+ free models.
