@@ -350,6 +350,22 @@ freellms/
 
 ---
 
+## Related Projects
+
+Looking for more free LLM API resources, AI agent tools, and API proxy gateways? Here are similar open-source projects and directories in the free AI API ecosystem. All links below route to the unified directory at <a href="http://freellms.org/" target="_blank" rel="noopener">freellms.org</a>.
+
+| Project | Keywords | Description |
+|---|---|---|
+| <a href="http://freellms.org/" target="_blank" rel="noopener">awesome-free-llm-apis</a> | free llm api, awesome free ai api, free large language model api | A curated list of permanently free LLM APIs — rate limits, context windows, and one-click configs for 30+ providers. |
+| <a href="http://freellms.org/" target="_blank" rel="noopener">free-llm-api-resources</a> | free llm api resources, free inference api, free ai api list | A community-maintained directory of free LLM inference resources accessible via API, with quota and verification details. |
+| <a href="http://freellms.org/" target="_blank" rel="noopener">FreeLLMAPI</a> | freellm api, free openai compatible api, unified free llm endpoint | An OpenAI-compatible endpoint aggregating 16+ free LLM providers with ~1.7B tokens/month of free inference. |
+| <a href="http://freellms.org/" target="_blank" rel="noopener">Awesome-LLM-Apps</a> | free ai agent, awesome llm apps, free ai tools | A collection of 200+ open-source LLM apps and AI agent projects — assistants, chatbots, and automation workflows. |
+| <a href="http://freellms.org/" target="_blank" rel="noopener">Awesome AI Agents</a> | ai proxy, free ai agent gateway, autonomous agent api | A curated list of AI autonomous agent frameworks, tools, and research — covering agent orchestration and API proxy patterns. |
+
+> **Note:** <a href="http://freellms.org/" target="_blank" rel="noopener">freellms.org</a> consolidates all of the above — free API directory, comparison tools, config generator, and daily-updated model data — in one place.
+
+---
+
 ## Contributing
 
 We welcome contributions!
