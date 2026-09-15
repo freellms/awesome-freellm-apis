@@ -114,6 +114,7 @@ Most AI dev tools accept custom API endpoints — just point them at any provide
 - **Aider** — edit `.aider.conf.yml`. <a href="https://freellms.org/config/#aider" target="_blank" rel="noopener">Step-by-step →</a>
 - **Cline** (VS Code) — API provider settings. <a href="https://freellms.org/config/#cline" target="_blank" rel="noopener">Step-by-step →</a>
 - **Open WebUI** — Settings → Connections. <a href="https://freellms.org/config/#open-webui" target="_blank" rel="noopener">Step-by-step →</a>
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
 
 More ready-to-copy configs at <a href="https://freellms.org/config/" target="_blank" rel="noopener"><strong>freellms.org/config/</strong></a>.
 
