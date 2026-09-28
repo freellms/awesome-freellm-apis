@@ -339,14 +339,50 @@ Data from freellms.org, updated daily via API monitoring.
 ```
 freellms/
 ├── README.md              ← Complete provider directory & code examples
+├── README.zh-CN.md        ← 简体中文 translation
+├── README.zh-TW.md        ← 繁體中文 translation
+├── README.ja.md           ← 日本語 translation
+├── README.ko.md           ← 한국어 translation
+├── README.es.md           ← Español translation
+├── README.la.md           ← Latine translation
 ├── code-examples/          ← Ready-to-use config snippets
 │   ├── claude-code.md
 │   ├── cursor.md
 │   └── codex.md
+├── assets/                 ← Static assets (provider logo marquee)
+├── .github/                ← Issue/PR templates & funding config
 └── LICENSE                 ← MIT
 ```
 
 > For the full structured dataset with 453 models and daily updates, visit **<a href="https://freellms.org" target="_blank" rel="noopener">freellms.org</a>**.
+
+---
+
+## FAQ
+
+### Are these APIs really free?
+
+Yes — the list separates providers into **permanently free tiers** and **renewable credits** (see the [Provider Directory](#provider-directory)). Every entry shows exactly what's required — credit card, phone verification, or just registration — so there are no surprises at sign-up.
+
+### Do I need a credit card?
+
+Most permanently free providers do **not** require one. Providers that do are clearly marked in the [Provider Directory](#provider-directory) table — look for the "Credit Card?" column before signing up.
+
+### How often is the data updated?
+
+Daily. The provider directory, base URLs, and rate limits are refreshed automatically from <a href="https://freellms.org" target="_blank" rel="noopener">freellms.org</a> — see the "Data refreshed daily" badge at the top of this page.
+
+### Which model should I start with?
+
+[Groq](https://console.groq.com/keys) is the usual first pick: no credit card, 30 RPM free tier. For the strongest free models overall, see [Best Free Models by Provider](#best-free-models-by-provider) and [Top Free Models (by Weekly Usage)](#top-free-models-by-weekly-usage).
+
+### Can I use these APIs with my own tools?
+
+Yes — every provider exposes an **OpenAI-compatible endpoint**, so any tool that accepts `baseURL` + `apiKey` works. See [Quick Start](#quick-start--use-any-free-api-in-30-seconds) and the ready-made configs for Claude Code, Cursor, Codex, and more in `code-examples/`.
+
+### I found a new free API. How do I add it?
+
+Open a [submission issue](https://github.com/freellms/awesome-freellm-apis/issues/new?template=submit_api.yml) or submit a PR following the [Contributing](#contributing) guide — a genuine free tier and a working API key link are required.
 
 ---
 
