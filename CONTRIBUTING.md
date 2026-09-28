@@ -13,14 +13,16 @@ This repository is dedicated to APIs that offer **genuine free tiers** for devel
 - We welcome services that have paid tiers, provided they have a distinct, usable free tier.
 
 ### 2. Formatting Your Contribution
-When adding a new API to the list, please ensure you use the existing Markdown table format.
+When adding a new API to the list, please use the same table format as the provider tables in `README.md` (data is synced from freellms.org, so keep the entry in the same shape).
 
 **Example Entry:**
 ```markdown
-| Provider | Free Quota | Models | Require CC | Note |
-| --- | --- | --- | --- | --- |
-| [Provider Name](URL) | 100k tokens / day | Llama-3 | No | Some useful note |
+| Provider | Free Models | Credit Card? | Max Context | Modalities | Get API Key |
+| --- | --- | --- | --- | --- | --- |
+| [Provider Name](URL) | 3 | No | 128K | text | [Get Key →](key-url) |
 ```
+
+**Config snippets** for AI tools (Claude Code, Cursor, Codex, etc.) belong in `code-examples/` as a separate Markdown file — include the exact `baseURL`, model IDs, and environment variables needed.
 
 ### 3. Global Project
 This is a global project with READMEs in multiple languages (`README.md`, `README.zh-CN.md`, etc.).
