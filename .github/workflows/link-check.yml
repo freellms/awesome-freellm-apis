@@ -1,0 +1,23 @@
+name: Check Links
+
+on:
+  schedule:
+    - cron: "0 1 * * 1"
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    name: Check README & code-example links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run lychee link checker
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress --exclude "https://freellms.org/*" --exclude "http://freellms.org/*" --exclude-mail README.md README.*.md CONTRIBUTING.md code-examples/
+          fail: false
+          issue: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
