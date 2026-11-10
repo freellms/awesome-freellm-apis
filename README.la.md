@@ -159,6 +159,7 @@ Hi praebitores **gradum gratuitum perpetuum** offerunt; plerique chartam credito
 | DeepSeek | 2 | Adscriptio | 128K | text | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">→</a> |
 | Nscale | 2 | Adscriptio | 128K | text | <a href="https://console.nscale.com/" target="_blank" rel="noopener">→</a> |
 | Nebius | 1 | Adscriptio | 128K | text | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
+| cheapllm.shop | 1 | Registration | - | image, reasoning, text | <a href="https://cheapllm.shop/signup" target="_blank" rel="noopener">→</a> |
 <!-- END_PERMANENT_FREE -->
 
 ### 💰 Credita renovabilia
@@ -206,6 +207,7 @@ Praebitores qui credita gratuita temporibus certis renovant.
 | DeepSeek | `https://api.deepseek.com/v1` | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">Clavem accipe →</a> | Adscriptio |
 | Nscale | `https://inference.api.nscale.com/v1` | <a href="https://console.nscale.com/" target="_blank" rel="noopener">Clavem accipe →</a> | Adscriptio |
 | Nebius | `https://api.studio.nebius.com/v1` | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">Clavem accipe →</a> | Adscriptio |
+| cheapllm.shop | `https://cheapllm.shop/v1` | <a href="https://cheapllm.shop/signup" target="_blank" rel="noopener">Get Key →</a> | Registration |
 <!-- END_QUICK_REF -->
 
 ## Optima modela gratuita per praebitorem
@@ -295,6 +297,7 @@ Praebitores qui credita gratuita temporibus certis renovant.
 | Nscale | <a href="https://freellms.org/models/nscale/llama-3-3-70b-instruct/" target="_blank" rel="noopener">Llama-3.3-70B-Instruct</a> | `llama-3-3-70b-instruct` | 128K | Usus aequus |
 |  | <a href="https://freellms.org/models/nscale/deepseek-r1-distill-llama-70b/" target="_blank" rel="noopener">DeepSeek-R1-Distill-Llama-70B</a> | `deepseek-r1-distill-llama-70b` | 128K | Usus aequus |
 | Nebius | <a href="https://freellms.org/models/nebius/qwen3-235b-a22b/" target="_blank" rel="noopener">Qwen3-235B-A22B</a> | `qwen3-235b-a22b` | 128K | Pro gradu |
+| cheapllm.shop | DeepSeek V4.1 Flash 1017 | `deepseek-v4.1-flash-1017` | - | None during the beta; then 5K input + 1K output tokens/hour |
 <!-- END_BEST_MODELS -->
 
 
